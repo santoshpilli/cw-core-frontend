@@ -1,0 +1,10 @@
+.row-light {
+    background-color: #f5b6b6;
+  }
+  
+  .row-dark {
+    background-color: #84eb84;
+  }
+  .ant-table-cell-hover {
+    background-color: none !important;
+  }

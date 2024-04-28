@@ -1,0 +1,30 @@
+.ant-menu-sub.ant-menu-inline{
+    background: #f3f4f9 !important;
+}
+.ant-menu-inline.ant-menu-root .ant-menu-submenu-title > .ant-menu-title-content{
+    font-weight: 600 !important;
+  }
+  .ant-menu-inline{
+    border-right: none !important;
+}
+.ant-menu-vertical{
+    border-right: none !important;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    /* border-left: 3px solid #A4CD38 !important; */
+}
+.ant-drawer-header{
+    padding: 0 !important;
+}
+.ant-drawer-content{
+    overflow: hidden !important;
+}
+.ant-drawer-body {
+    padding: 0;
+}
+/* .ant-collapse-content {
+    background-color: #EEF1F7 !important;
+}
+.ant-collapse-content > .ant-collapse-content-box{
+    padding: 0;
+} */

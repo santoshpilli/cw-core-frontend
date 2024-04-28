@@ -1,0 +1,27 @@
+.font-footer{
+    font-family: 'Oxygen', sans-serif;
+}
+.mainLayoutPadding1 {
+    padding-top: 0.7em;
+    padding-bottom: 15px;
+    padding-right: 0.9em;
+    padding-left: 0.9em;
+}
+.mainLayoutDashboardPadding1 {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-right: 23px;
+    padding-left: 23px; 
+}
+.mainLayoutReportPadding {
+    padding-right: 23px;
+    padding-left: 23px; 
+}
+.mainLayoutReportPadding1 {
+    padding-top: 15px;
+    padding-right: 13px;
+    padding-left: 0px; 
+}
+.ant-layout {
+    background: #f3f4f9;
+}

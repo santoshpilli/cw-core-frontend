@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.pref-headings-div{
+    background-color: #E4E5E7;
+    height: auto;
+    padding: 0.3rem 1.5rem;
+    align-items: center;
+   
+}
+.pref-headings{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Inter;
+    font-style: normal;
+    line-height: 19px;
+}
+.pref-card-div{
+    display: flex;
+    padding: 0.3rem 1.5rem ;
+    align-items: center;
+    
+}
+.inside-text{
+    font-size: 12px !important;
+    /* line-height: 15px !important; */
+    color: #0C173A !important;
+    font-weight: 400 !important;
+    font-family: Inter !important;
+    font-style: normal !important;
+
+}
+.inside-text.ant-select-selection-item{
+    font-size: 12px;
+    line-height: 15px;
+    color: #0C173A ;
+    font-weight: 400;
+    font-family: Inter;
+    font-style: normal;
+
+}
+/* .ant-input{
+    font-size: 12px;
+    line-height: 15px;
+    color: #0C173A !important;
+    font-weight: 400;
+    font-family: Inter;
+    font-style: normal;
+} */
+.left-border{
+    border-left: 1px solid #D3D3D3 ;
+    height: auto;
+}
+.left-border-customer1{
+    border-left: 1px solid #D3D3D3 ;
+    height: auto;
+}
+.left-border-customer{
+    border-left: 1px solid #D3D3D3 ;
+    height: auto;
+}
+.lable-text{
+    font-size: 12px;
+    line-height: 15px;
+    color: #0C173A;
+    font-weight: 400;
+    font-family: Inter;
+    font-style: normal;
+}
+.note-text{
+    color: #000000;
+    opacity: 0.5;
+    font-size: 12px;
+    font-family: Inter;
+
+}

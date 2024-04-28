@@ -1,0 +1,8 @@
+
+#root{
+    height:inherit;
+    overflow: hidden;
+}
+html {
+    font-size: 62.5%; /* 10px base font size */
+  }

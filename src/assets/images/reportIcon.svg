@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23">
+  <g id="Schedule_icon" data-name="Schedule icon" transform="translate(-1048 51)">
+    <g id="calendar_today-24px" transform="translate(1048 -51)">
+      <path id="Path_2872" data-name="Path 2872" d="M0,0H20V20H0Z" fill="none"/>
+      <path id="Path_2873" data-name="Path 2873" d="M17,2.667h-.833V1H14.5V2.667H6.167V1H4.5V2.667H3.667A1.672,1.672,0,0,0,2,4.333V17.667a1.672,1.672,0,0,0,1.667,1.667H17a1.672,1.672,0,0,0,1.667-1.667V4.333A1.672,1.672,0,0,0,17,2.667Zm0,15H3.667V8.5H17ZM17,6.833H3.667v-2.5H17Z" transform="translate(-0.333 -0.167)" fill="#787673"/>
+    </g>
+    <circle id="Ellipse_72" data-name="Ellipse 72" cx="8" cy="8" r="8" transform="translate(1056 -44)" fill="#fff"/>
+    <g id="Clock" transform="translate(1057 -43)">
+      <path id="Path_2874" data-name="Path 2874" d="M0,0H14V14H0Z" fill="none"/>
+      <path id="Path_2875" data-name="Path 2875" d="M7.827,2a5.833,5.833,0,1,0,5.839,5.833A5.83,5.83,0,0,0,7.827,2Zm.006,10.5A4.667,4.667,0,1,1,12.5,7.833,4.665,4.665,0,0,1,7.833,12.5Z" transform="translate(-0.833 -0.833)" fill="#787673"/>
+      <path id="Path_2876" data-name="Path 2876" d="M11.875,7H11v3.5l3.063,1.837.438-.717-2.625-1.557Z" transform="translate(-4.583 -2.917)" fill="#787673"/>
+    </g>
+  </g>
+</svg>
+

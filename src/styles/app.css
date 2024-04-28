@@ -1,0 +1,493 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i,900");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js");
+@import url("//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  font-size: 16px; /* Set your base font size here */
+}
+
+.toggleStyles {
+  width: 100%;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.topMenuIcons {
+  width: 95%;
+  padding-bottom: 14%;
+  margin-left: 30%;
+}
+
+.topMenuSettingIcons {
+  width: 45%;
+  padding-bottom: 13%;
+  margin-left: 40%;
+}
+
+.downArrow {
+  color: white;
+  position: absolute;
+  top: 43%;
+  right: 0;
+  margin-top: -2px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.cardstyle {
+  margin: -1% !important;
+  border: none !important;
+  box-shadow: 0px 0px 0px 0px #707070 !important;
+  width: 13.5rem !important;
+  padding: 0px !important;
+}
+
+.react-pdf__Page__canvas {
+  width: 597px !important;
+}
+
+.ant-result {
+  padding: 0px !important;
+}
+
+.popOver {
+  padding: 0px 0px !important;
+  width: 15rem !important;
+}
+
+.loginPageButton {
+  width: 100% !important;
+  font-size: 14px !important;
+  background-color: #1648aa !important;
+  border: 1px solid #e4e9f0 !important;
+  border-radius: 5px !important;
+  opacity: 1 !important;
+  letter-spacing: 0px !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+.loginText {
+  text-align: center;
+}
+
+.inner {
+  min-width: 20rem;
+  max-width: 27rem;
+  margin: 0 auto;
+  margin-left: 17%;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #f2f3f6 !important;
+  position: relative;
+}
+
+.textinner {
+  min-width: 25rem !important;
+  max-width: 27.66rem;
+  margin-top: 14%;
+  margin-left: 5%;
+  padding-left: 1%;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  padding: 5px !important;
+}
+
+.block {
+  margin-top: '121px';
+  /* padding: 12% 3.33rem 6.66rem 1.8%; */
+  /* width: 100%; */
+  /* align-self: center; */
+  /* position: relative; */
+  /* z-index: 2; */
+  /* width: 100%; */
+  /* min-height: 100vh;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.logoStyles {
+  width: 50%;
+  padding-top: 5px;
+  margin-left: -4%;
+}
+
+.newButtonForlist {
+  font-size: 14px !important;
+  height: 2rem !important;
+  width: 5rem !important;
+  background: #089ea4 !important;
+  border: 0.5px solid #07888d !important;
+  border-radius: 2px !important;
+  color: #ffffff !important;
+  opacity: 1;
+  font-weight: 600 !important;
+}
+
+.listCustomButtons {
+  height: 35px !important;
+  width: 35px !important;
+  color: #706e6b !important;
+  border: 0.5px solid #dddbda !important;
+  cursor: pointer;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  border-radius: 5px !important;
+  float: right !important;
+  margin-right: 5px !important;
+}
+
+.listCustomButtonsLast {
+  height: 35px !important;
+  width: 35px !important;
+  color: #706e6b !important;
+  border: 0.5px solid #dddbda !important;
+  cursor: pointer;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  border-radius: 5px !important;
+  float: right !important;
+}
+
+.listButtonsImage {
+  margin-top: 6% !important;
+  margin-bottom: 6px !important;
+  padding-left: 2px !important;
+  padding-top: 2px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.aboveHeaderButtons {
+  height: 30px !important;
+  width: auto !important;
+  font-weight: 600 !important;
+  color: #717172 !important;
+  border-radius: 3px !important;
+  border: 0.1px solid #dddbda !important;
+  opacity: 1;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.quickAddButtons {
+  height: 25px !important;
+  width: 30px !important;
+  color: #706e6b !important;
+  border: 0.5px solid #dddbda !important;
+  cursor: pointer;
+  padding-left: 1px !important;
+  padding-right: 5px !important;
+  padding-bottom: 3px !important;
+  /* border-radius: 5px !important; */
+  margin-top: 0.2em !important;
+  float: right !important;
+}
+.quickAddButtons1 {
+  height: 36px !important;
+  width: 35px !important;
+  color: #706e6b !important;
+  border: 0.5px solid #dddbda !important;
+  cursor: pointer;
+  padding-top: 5px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  border-radius: 5px !important;
+  float: right !important;
+}
+.onHover:hover {
+  max-width: "100%";
+  overflow-x: scroll;
+}
+
+.react-resizable {
+  position: relative;
+  background-clip: padding-box;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  right: -5px;
+  bottom: 0;
+  z-index: 1;
+  width: 10px;
+  height: 100%;
+  cursor: col-resize;
+}
+
+.dragHandler:hover {
+  cursor: move;
+  background-color: #ccc;
+}
+.target {
+  position: fixed !important;
+}
+.flex-spread {
+  display: flex;
+  float: right;
+  margin-top: 6px;
+}
+.flex-spreadLines {
+  display: flex;
+  float: right;
+}
+.flex-spread1 {
+  display: flex;
+  float: right;
+}
+.flex-spreadTitle {
+  display: flex;
+  float: left;
+}
+.target {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* .react-tooltip-lite {
+  background: #4e5355 !important;
+  color: white !important;
+}
+.setting .react-tooltip-lite {
+  background: #4e5355 !important;
+} */
+.arrow-content-tooltip .react-tooltip-lite {
+  box-sizing: border-box;
+  border: 1px solid #444444;
+  border-radius: 3px !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+  background-color: #444444 !important;
+  opacity: 80%;
+  width: auto !important;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  font-weight: 600 !important;
+  font-family: "open sans" !important;
+  color: white !important;
+}
+.arrow-content-tooltip .react-tooltip-lite-down-arrow {
+  opacity: 80%;
+  color: #444444;
+  margin-left: 4px !important;
+}
+
+.arrow-content-tooltipOne .react-tooltip-lite {
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  border-radius: 3px !important;
+  box-shadow: 0px 3px 6px #00000029 !important;
+  background-color: #ffffff !important;
+  width: auto !important;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 18px !important;
+  padding-right: 26px !important;
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+  font-weight: 500 !important;
+  font-family: "open sans" !important;
+  color: #080707 !important;
+}
+.arrow-content-tooltipOne .react-tooltip-lite-down-arrow {
+  color: #ffffff;
+  margin-left: 4px !important;
+  width: 20px !important;
+  height: auto !important;
+  box-shadow: 0px 0px 0px #00000029 !important;
+}
+
+.arrow-content-tooltipList .react-tooltip-lite {
+  box-sizing: border-box;
+  border: 1px solid #444444;
+  border-radius: 3px !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+  background-color: #444444 !important;
+  opacity: 80%;
+  width: auto !important;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  font-weight: 600 !important;
+  font-family: "open sans" !important;
+}
+.arrow-content-tooltipList .react-tooltip-lite-down-arrow {
+  opacity: 80%;
+  color: #444444;
+}
+.arrow-content-tooltipList .react-tooltip-lite-up-arrow {
+  opacity: 80%;
+  color: #444444;
+}
+.responsiveSideMenu {
+  width: 50px !important;
+  background-color: '#E1E3E7';
+}
+.table-responsive {
+  overflow-y: scroll;
+  height: 560px;
+}
+.drawerClose {
+  position: fixed;
+
+  /* display: block; */
+  top: 80px;
+  /* border-radius: 50%; */
+  width: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  line-height: 1.5715;
+
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 0px solid transparent;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  /* height: 32px; */
+  padding: 4px 15px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.85);
+  border-color: #d9d9d9;
+  background: #fff;
+}
+
+.introjs-tooltip {
+  box-sizing: content-box;
+  position: absolute;
+  visibility: visible;
+  background-color: #fff;
+  min-width: 250px;
+  max-width: 350px !important;
+  width: max-content;
+  border-radius: 5px;
+  box-shadow: 0 3px 30px rgb(33 33 33 / 30%);
+  transition: opacity .1s ease-out;
+}
+
+.introjs-nextbutton {
+  box-sizing: content-box;
+  position: relative;
+  overflow: visible;
+  padding: 0.5rem 1rem;
+  border: none !important;
+  text-decoration: none;
+  /* text-shadow: 1px 1px 0 #fff; */
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF !important;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: 0;
+  background-color: #0C173A !important;
+  border-radius: 0.2em;
+  zoom: 1;
+  display: inline;
+}
+.introjs-button {
+  box-sizing: content-box;
+  position: relative;
+  overflow: visible;
+  padding: 0.5rem 1rem;
+  /* border: 1px solid #bdbdbd; */
+  text-decoration: none;
+  text-shadow:none !important;
+  font-size: 14px;
+  color: #424242;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: 0;
+  background-color: #f4f4f4;
+  border-radius: 0.2em;
+  zoom: 1;
+  display: inline;
+}
+
+.introjs-prevbutton {
+  background: #FFFFFF !important;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 4px !important;
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+
+  color: #0C173A !important;
+
+}
+
+.introjs-bullets ul li a {
+  border-radius: 50%;
+  width: 9px !important;
+  height: 9px;
+  margin: 0 2px;
+}
+
+.introjs-bullets ul li a.active {
+  background-color: #88B906 !important;
+  border-radius: 50%;
+  width: 9px !important;
+  height: 9px;
+  margin: 0 2px;
+}
+
+.bullets ul li a:hover {
+  /* width: ; */
+  background: #999;
+  text-decoration: none;
+  outline: 0;
+}
+
+.introjs-nextbutton {
+  float: unset;
+  margin-left: 10px;
+}
+
+.introjs-prevbutton {
+  float: unset;
+}
+
+.introjs-tooltipbuttons {
+  border-top: 1px solid #e0e0e0;
+  padding: 20px;
+  text-align: right;
+  white-space: nowrap;
+  background: #FFFFFF;
+  box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.introjs-helperLayer {
+  box-shadow: rgb(33 33 33 / 80%) 0px 0px 0px 0px, rgb(33 33 33 / 50%) 0px 0px 0px 5000px !important;
+  border: none !important;
+  
+}
+

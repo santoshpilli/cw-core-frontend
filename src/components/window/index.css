@@ -1,0 +1,12 @@
+.tabButton.ant-btn:not([disabled]):hover {
+    background-color: #C9C9C9 !important ;
+    }
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+        border-radius: 5px !important;
+    }
+  .ant-picker {
+        border-radius: 5px !important;
+        height: 1.8rem !important;
+    }
+    

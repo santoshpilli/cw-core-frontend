@@ -1,0 +1,44 @@
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #192228 !important;
+    font-weight: 550;
+    font-family: "Inter";
+    font-size: 12px;
+}
+/* .ant-collapse-item {
+    border: none !important;
+    border-bottom: 1px solid #d9d9d9 !important;
+}
+.ant-collapse-item.ant-collapse-item-active{
+    border-bottom: none !important;
+} */
+.dropMenu.ant-menu-vertical{
+    border-right: none;
+}
+.ant-tabs-nav{
+    padding-left: 1.7em;
+}
+.ant-collapse{
+    border: 1px solid #b0b0b00d !important;
+}
+.ant-collapse > .ant-collapse-item {
+    border-bottom: none !important;
+}
+.ant-collapse-content{
+    border-top: none !important;
+}
+.ant-menu-title-content{
+font-family: "Inter" !important;
+}
+.listHeaderButtons.ant-btn:not([disabled]):hover {
+    background-color: #C9C9C9 !important ;
+  }
+  .actionsModal .ant-modal-content {
+    border-radius: 8px !important;
+  }
+  .actionsModal .ant-modal-header {
+    border-radius: 8px !important;
+  }
+  .recordCard>.ant-card-body {
+    padding: 0px !important;
+    padding-top: 0.5em !important;
+  }

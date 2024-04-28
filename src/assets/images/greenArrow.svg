@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="arrow-up-right-circle-fill" transform="translate(21.83)">
+    <g id="Group_1888" data-name="Group 1888" transform="translate(-21.83)">
+      <circle id="Ellipse_85" data-name="Ellipse 85" cx="11.5" cy="11.5" r="11.5" fill="#0dbc70"/>
+      <path id="Icon_metro-arrow-left" data-name="Icon metro-arrow-left" d="M4.2,9.279.232,5.316a.793.793,0,0,1,0-1.121L4.2.232A.793.793,0,0,1,5.316,1.353l-2.61,2.61h7.6a.793.793,0,1,1,0,1.585h-7.6l2.61,2.61A.793.793,0,1,1,4.2,9.279Z" transform="translate(19 11.153) rotate(135)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

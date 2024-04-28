@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24">
+  <g id="HideMenu" transform="translate(-15 -734)">
+    <g id="Arrow_down" data-name="Arrow down" transform="translate(21 758) rotate(-90)">
+      <path id="Path_2824" data-name="Path 2824" d="M0,24H24V0H0Z" fill="none"/>
+      <path id="Path_2825" data-name="Path 2825" d="M1.41,7.41,6,2.83l4.59,4.58L12,6,6,0,0,6Z" transform="translate(6 8)" fill="#fff"/>
+    </g>
+    <g id="Arrow_down-2" data-name="Arrow down" transform="translate(15 758) rotate(-90)">
+      <path id="Path_2824-2" data-name="Path 2824" d="M0,24H24V0H0Z" fill="none"/>
+      <path id="Path_2825-2" data-name="Path 2825" d="M1.41,7.41,6,2.83l4.59,4.58L12,6,6,0,0,6Z" transform="translate(6 8)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

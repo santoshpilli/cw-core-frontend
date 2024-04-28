@@ -1,0 +1,30 @@
+{
+    "shape":
+        [
+          {"value":"Round"},
+          {"value":"Pear"},
+          {"value":"Princess"}
+        ],
+
+    "color":
+         [
+          {"value":"D"},
+          {"value":"E"},
+          {"value":"F"},
+          {"value":"I"}
+        
+        ],
+    "clarity":
+           [
+        {"value":"IF"},
+        {"value":"VVS1"},
+        {"value":"VS1"}
+       ] ,
+   "Size":[
+          {"value":"0.23-0.29"},
+          {"value":"0.30-0.38"},
+          {"value":"0.10-0.14"}
+    ]
+  } 
+
+

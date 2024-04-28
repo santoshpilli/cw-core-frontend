@@ -1,0 +1,203 @@
+{
+  "title": "Quick Sales Return",
+  "type": "object",
+  "layout": "header",
+  "Fields": [
+    {
+      "type": "selector",
+      "title": "Business Unit",
+      "name": "businessunit",
+      "default": "",
+      "required": true,
+      "seqno": 1,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N",
+      "lineData":null,
+      "apiBuiler": {
+          "id":"6481662d972763299598e709",
+          "params":{"cs_bunit_id":"","name":""}
+      }
+    },
+    {
+      "type": "selector",
+      "title": "Customer",
+      "name": "customer",
+      "default": "",
+      "required": true,
+      "seqno": 1,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N",
+      "lineData":null,
+      "apiBuiler": {
+          "id":"64af83da291b3b33ff2345d3",
+          "params":{"name":"","s_customer_id":""}
+      }
+    },
+    {
+      "type": "selector",
+      "title": "Sales Order",
+      "name": "so",
+      "default": "",
+      "required": true,
+      "seqno": 3,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N",
+      "lineData":null,
+      "apiBuiler": {
+          "id":"64af8bdf291b3b33ff2345db",
+          "params":{"cs_bunit_id":"businessunit","s_customer_id":"customer","windowkey":"#SRE","SONumber":"null"}
+      }
+    },
+    {
+      "type": "selector",
+      "title": "Return Reason",
+      "name": "returnReason",
+      "default": "",
+      "required": true,
+      "seqno": 1,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N",
+      "lineData":null,
+      "apiBuiler": {
+          "id":"64af93d6291b3b33ff2345e3",
+          "params":{}
+      }
+    },
+    {
+      "type": "string",
+      "title": "Remarks",
+      "name": "remarks",
+      "default": "",
+      "required":false,
+      "seqno": 4,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    },
+    {
+      "type": "date",
+      "title": "Date",
+      "name": "date",
+      "default": "",
+      "required":false,
+      "seqno": 4,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    },
+    {
+      "type": "button",
+      "title": "Fetch",
+      "name": "fetch",
+      "default": "",
+      "required":false,
+      "seqno": 4,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N",
+      "lineData":{
+        "apiBuiler": {
+          "id":"64af8f04291b3b33ff2345e0",
+          "params":{"s_order_id":"so"}
+      }
+      }
+    }
+  ],
+  "lineFields":[
+    {
+      "type": "selector",
+      "title": "Product",
+      "name": "product",
+      "default": "",
+      "required": true,
+      "seqno": 1,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N",
+      "apiBuiler": {
+          "id":"64895b56972763299598e7bc",
+          "params":{"name":"","value":"","cs_bunit_id":"businessunit"}
+      }
+    },
+    {
+      "type": "string",
+      "title": "Category",
+      "name": "category",
+      "default": "",
+      "required":false,
+      "seqno": 2,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    },
+    {
+      "type": "string",
+      "title": "SO Quantity",
+      "name": "soqty",
+      "default": "",
+      "required":false,
+      "seqno": 2,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    },
+    {
+      "type": "number",
+      "title": "Return Quantity",
+      "name": "qty",
+      "default": "",
+      "required":false,
+      "seqno": 4,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    },
+    {
+      "type": "icon",
+      "title": "Action",
+      "name": "delete",
+      "default": "",
+      "required":false,
+      "seqno": 5,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    }
+  ],
+  "LinesButtons":[
+    {
+      "type": "Button",
+      "title": "",
+      "name": "Confirm",
+      "seqno": 5,
+      "isdisplayed": "Y"
+    },
+    {
+      "type": "Button",
+      "title": "",
+      "name": "Email",
+      "seqno": 5,
+      "isdisplayed": "Y",
+      "emailConfig":{
+        "headerTabId":"8CE09FAB98FD4A3CBF921E78F3761232",
+        "windowId":"7091"
+      }
+    },
+    {
+      "type": "Button",
+      "title": "",
+      "name": "import",
+      "seqno": 5,
+      "isdisplayed": "Y",
+      "importConfig":{
+        "columns":["productCode","qty"],
+        "fileName":"SalesReturnImportTemplate",
+        "params":{"cs_bunit_id":"businessunit"}
+      }
+    }
+  ]
+}

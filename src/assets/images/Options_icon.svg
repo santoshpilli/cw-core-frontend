@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="16" viewBox="0 0 19 16">
+  <g id="Options" transform="translate(-9.128 -12.698)">
+    <line id="Line_168" data-name="Line 168" x2="18" transform="translate(9.628 15.198)" fill="none" stroke="#706e6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_170" data-name="Line 170" x2="18" transform="translate(9.628 21.198)" fill="none" stroke="#706e6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_172" data-name="Line 172" x2="18" transform="translate(9.628 26.198)" fill="none" stroke="#706e6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <circle id="Ellipse_69" data-name="Ellipse 69" cx="2" cy="2" r="2" transform="translate(12.628 13.198)" fill="#fff" stroke="#706e6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <circle id="Ellipse_70" data-name="Ellipse 70" cx="2" cy="2" r="2" transform="translate(19.628 19.198)" fill="#fff" stroke="#706e6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <circle id="Ellipse_71" data-name="Ellipse 71" cx="2" cy="2" r="2" transform="translate(13.628 24.198)" fill="#fff" stroke="#706e6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<script>
+  window.addEventListener("message", function (event) {
+    if(event.data.iframeId === 'myIframe4'){
+        localStorage.setItem("productTourSteps",JSON.stringify(event.data.data))
+      }
+      if(event.data.iframeId === 'myIframe5'){
+        localStorage.setItem("existingUser",JSON.stringify(event.data.data)) 
+      }
+    if (Object.keys(event.data).length === 1) {
+      if (Object.keys(event.data)[0] === "done") {
+        let data = [...JSON.parse(localStorage.getItem("userApps"))];
+        let targetIndex = data.findIndex(app => app.app_id === Object.values(event.data)[0]);
+        data[targetIndex].appDataLoaded = "Y";
+        localStorage.setItem("userApps", JSON.stringify(data));
+      } else {
+        localStorage.setItem(Object.keys(event.data)[0], JSON.stringify(Object.values(event.data)[0]));
+      };
+    };
+    if (event.data === "clearLocalStorage") {
+      localStorage.clear();
+      event.source.postMessage("localStorageCleared", event.origin);
+    };
+  });
+</script>

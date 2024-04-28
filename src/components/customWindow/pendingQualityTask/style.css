@@ -1,0 +1,9 @@
+@import 'antd/dist/antd.css';
+
+.custom .ant-collapse-content-box {
+    padding: 0;
+  }
+
+  .headerPadding .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+      padding-left: 4px;
+  }

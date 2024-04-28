@@ -1,0 +1,8 @@
+.c3-ygrid-line.grid8 line {
+    stroke: #0C173A;
+    stroke-opacity: 0.05;
+    /* margin-left: 200; */
+}
+.c3-legend-background{
+    stroke: none !important;
+}

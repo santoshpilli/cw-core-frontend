@@ -1,0 +1,148 @@
+.mainDiv
+{background-color:#0C173A; 
+  height:100%;
+  display:flex;
+flex-direction: column;
+ justify-content: center; 
+align-items: center;
+
+}
+
+body{
+  background-color:#0C173A
+}
+
+.innerBlock{
+    margin: auto;
+padding:0.8rem;
+    background-color: white;
+    width:24.5rem;
+    height:20.50%;
+    border-radius: 0.5em;
+    margin-top: 5%;
+    
+}
+
+.cwLoginLogo{
+    width:12.5em;
+    height:2.5em;
+     margin-top:5%
+}
+
+.resetPasswordLog{
+  display: flex;
+  flex-direction: row;
+  margin-top: 6%;
+}
+
+.copyright
+{ 
+ width:30%;
+ margin-top: 3.5%;
+}
+
+.resetEmail.ant-input::placeholder{
+    color:#848484;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .usernameInput.ant-input::placeholder{
+    color:#0C173A;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .passwordColorBackground.ant-input::placeholder{
+    color:#0C173A;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+ 
+
+  .passwordColorBackground input {
+    background:#D8DADE;
+    font-size: 1rem;
+  }
+
+  .resetEmail {
+    font-weight: 400;
+  }
+
+  .resetLoginPassword{
+    background-color:#0C173A;
+  }
+
+
+
+/*   
+  .inputEmail{
+    background-color: blue;
+    height:10vh
+  } */
+
+
+  @media only screen and (min-device-width: 350px) and (max-device-width: 500px) {
+
+  #resetEmailId{
+    height:3rem !important;
+  }
+
+  .mainReset{
+  margin-top: 2rem !important;
+  }
+
+  .resetDiv{
+    height:28rem !important;
+    justify-content: center !important;
+    justify-items: center !important;
+     position: absolute; 
+    left: 50%;
+    top: 40%; 
+     transform: translate(-50%, -50%);
+  }
+
+  .resetBut{
+    height:3rem !important;
+
+  }
+  .link{
+    margin-top: 2rem !important;
+  }
+ 
+
+/* For MobilePhones: */
+.col-ms-1 {width: 8.33%;}
+.col-ms-2 {width: 16.66%;}
+.col-ms-3 {width: 25%;}
+.col-ms-4 {width: 33.33%;}
+.col-ms-5 {width: 41.66%;}
+.col-ms-6 {width: 50%;}
+.col-ms-7 {width: 58.33%;}
+.col-ms-8 {width: 66.66%;}
+.col-ms-9 {width: 75%;}
+.col-ms-10 {width: 83.33%;}
+.col-ms-11 {width: 91.66%;}
+.col-ms-12 {width: 100%;}
+}
+
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1600px) {
+
+
+
+
+  /* For MobilePhones: */
+.col-tv-1 {width: 8.33%;}
+.col-tv-2 {width: 16.66%;}
+.col-tv-3 {width: 25%;}
+.col-tv-4 {width: 33.33%;}
+.col-tv-5 {width: 41.66%;}
+.col-tv-6 {width: 50%;}
+.col-tv-7 {width: 58.33%;}
+.col-tv-8 {width: 66.66%;}
+.col-tv-9 {width: 75%;}
+.col-tv-10 {width: 83.33%;}
+.col-tv-11 {width: 91.66%;}
+.col-tv-12 {width: 100%;}
+}

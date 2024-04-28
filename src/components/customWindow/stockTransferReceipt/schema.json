@@ -1,0 +1,188 @@
+{
+    "title": "Stock Transfer Receipt",
+    "type": "object",
+    "layout": "header",
+    "Fields": [
+      {
+        "type": "selector",
+        "title": "Source",
+        "name": "source",
+        "default": "",
+        "required": true,
+        "seqno": 1,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N",
+        "lineData":null,
+        "apiBuiler": {
+            "id":"6481662d972763299598e709",
+            "params":{"cs_bunit_id":"","name":""}
+        }
+      },
+      {
+        "type": "selector",
+        "title": "Destination",
+        "name": "destination",
+        "default": "",
+        "required": true,
+        "seqno": 2,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N",
+        "lineData":null,
+        "apiBuiler": {
+            "id":"6481662d972763299598e709",
+            "params":{"cs_bunit_id":"source","name":""}
+        }
+      },
+      {
+        "type": "selector",
+        "title": "Stock Issue",
+        "name": "stockIssue",
+        "default": "",
+        "required": true,
+        "seqno": 3,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N",
+        "lineData":null,
+        "apiBuiler": {
+            "id":"648c4685972763299598e913",
+            "params":{"issue_bunit_id":"source","cs_bunit_id":"destination"}
+        }
+      },
+      {
+        "type": "string",
+        "title": "Remarks",
+        "name": "remarks",
+        "default": "",
+        "required":false,
+        "seqno": 4,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N"
+      },
+      {
+        "type": "date",
+        "title": "Date",
+        "name": "date",
+        "default": "",
+        "required":false,
+        "seqno": 4,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N"
+      },
+      {
+        "type": "button",
+        "title": "Fetch",
+        "name": "fetch",
+        "default": "",
+        "required":false,
+        "seqno": 4,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N",
+        "lineData":{
+          "apiBuiler": {
+            "id":"648c491b972763299598e919",
+            "params":{"m_transferissue_id":"stockIssue"}
+        }
+        }
+      }
+    ],
+    "lineFields":[
+      {
+        "type": "selector",
+        "title": "Product",
+        "name": "product",
+        "default": "",
+        "required": true,
+        "seqno": 1,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N",
+        "apiBuiler": {
+            "id":"64895b56972763299598e7bc",
+            "params":{"name":"","value":"","cs_bunit_id":"source"}
+        }
+      },
+      {
+        "type": "string",
+        "title": "Category",
+        "name": "category",
+        "default": "",
+        "required":false,
+        "seqno": 2,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N"
+      },
+      {
+        "type": "string",
+        "title": "Transferred Quantity",
+        "name": "stock",
+        "default": "",
+        "required":false,
+        "seqno": 3,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N"
+      },
+      {
+        "type": "number",
+        "title": "Receiving Quantity",
+        "name": "qty",
+        "default": "",
+        "required":false,
+        "seqno": 4,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N"
+      },
+      {
+        "type": "icon",
+        "title": "Action",
+        "name": "delete",
+        "default": "",
+        "required":false,
+        "seqno": 5,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N"
+      }
+    ],
+    "LinesButtons":[
+      {
+        "type": "Button",
+        "title": "",
+        "name": "Receive",
+        "seqno": 5,
+        "isdisplayed": "Y"
+      },
+      {
+        "type": "Button",
+        "title": "",
+        "name": "Email",
+        "seqno": 5,
+        "isdisplayed": "Y",
+        "emailConfig":{
+          "headerTabId":"3E14F3E26D9D4AC8812D75779315D741",
+          "windowId":"7044"
+        }
+      },
+      {
+        "type": "Button",
+        "title": "",
+        "name": "import",
+        "seqno": 5,
+        "isdisplayed": "Y",
+        "importConfig":{
+          "columns":["productCode","qty"],
+          "fileName":"STRImportTemplate",
+          "params":{"cs_bunit_id":"source"}
+        }
+      }
+    ]
+  }
+  

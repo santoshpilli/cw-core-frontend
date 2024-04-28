@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24">
+  <g id="CollapseIcon" transform="translate(-9 0)">
+    <g id="Arrow_down" data-name="Arrow down" transform="translate(9 24) rotate(-90)">
+      <path id="Path_2824" data-name="Path 2824" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_2825" data-name="Path 2825" d="M1.41,0,6,4.58,10.59,0,12,1.41l-6,6-6-6Z" transform="translate(6 8.59)" fill="#fff"/>
+    </g>
+    <g id="Arrow_down-2" data-name="Arrow down" transform="translate(15 24) rotate(-90)">
+      <path id="Path_2824-2" data-name="Path 2824" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_2825-2" data-name="Path 2825" d="M1.41,0,6,4.58,10.59,0,12,1.41l-6,6-6-6Z" transform="translate(6 8.59)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

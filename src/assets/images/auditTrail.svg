@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2121" data-name="Rectangle 2121" width="23" height="23" transform="translate(750.25 169.25)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-750.25 -169.25)" clip-path="url(#clip-path)">
+    <g id="footsteps-silhouette-variant" transform="translate(753.959 171.906)" opacity="0.59">
+      <path id="Path_2771" data-name="Path 2771" d="M13.473,13.442c1.1.331,2.08.542,3.482.919C16.417,20.312,9.983,17.949,13.473,13.442Zm5.744-5.468c-.073-1.787-.432-4.131-3.3-3.764-1.344.307-2.336,1.6-2.8,3.825a9.39,9.39,0,0,0,.2,3.974c.276.726.182.681.479.819,1.149.226,2.286.477,3.445.733C18.411,12.833,19.378,8.974,19.218,7.974Zm-8.845-.137a9.4,9.4,0,0,0,.2-3.974C10.1,1.636,9.108.345,7.764.038,4.9-.329,4.538,2.015,4.466,3.8c-.16,1,.806,4.859,1.983,5.586,1.158-.256,2.3-.506,3.445-.733C10.19,8.518,10.1,8.563,10.373,7.837ZM6.728,10.189c.538,5.952,6.972,3.588,3.482-.919C9.105,9.6,8.13,9.812,6.728,10.189Z" transform="translate(-4.448 0)" fill="#888684"/>
+    </g>
+  </g>
+</svg>
+

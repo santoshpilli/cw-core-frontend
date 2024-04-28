@@ -1,0 +1,32 @@
+.chartTitle:hover .maxIcon{
+  opacity: 1 !important;
+}
+
+.maxIcon {
+opacity: 1 !important;
+float: right;
+}
+
+rect.disabled {
+  fill: transparent !important;
+}
+
+.badgemainamount {
+  font-size: 20px;
+  color:'#19181A';
+  opacity: '0.8';
+  font-weight: bold;
+}
+
+div.ant-modal-header-custom > div.ant-modal-content {
+  border-radius: 6px !important;
+}
+.op {
+  position: relative;
+  height:90px;
+  width:100%;
+}
+.ant-skeleton-element {
+  display: inline-block;
+  width: 100%;
+}

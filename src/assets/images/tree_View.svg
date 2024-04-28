@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 20">
+  <g id="Tree_icon" data-name="Tree icon" transform="translate(29.296 -5)">
+    <line id="Line_43" data-name="Line 43" y2="11" transform="translate(-11.296 10.5)" fill="#888684" stroke="#888684" stroke-width="1"/>
+    <line id="Line_42" data-name="Line 42" y2="13" transform="translate(-19.296 8.5)" fill="#888684" stroke="#888684" stroke-width="1"/>
+    <g id="Rectangle_2035" data-name="Rectangle 2035" transform="translate(-21.296 5)" fill="#888684" stroke="#888684" stroke-width="0.5">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.25" y="0.25" width="3.5" height="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_2036" data-name="Rectangle 2036" transform="translate(-29.296 14)" fill="#888684" stroke="#888684" stroke-width="1">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="3" fill="none"/>
+    </g>
+    <g id="Rectangle_2037" data-name="Rectangle 2037" transform="translate(-21.296 14)" fill="#888684" stroke="#888684" stroke-width="0.5">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.25" y="0.25" width="3.5" height="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_2038" data-name="Rectangle 2038" transform="translate(-13.296 14)" fill="#888684" stroke="#888684" stroke-width="1">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="3" fill="none"/>
+    </g>
+    <g id="Rectangle_2039" data-name="Rectangle 2039" transform="translate(-13.296 21)" fill="#888684" stroke="#888684" stroke-width="1">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="3" fill="none"/>
+    </g>
+    <g id="Rectangle_2040" data-name="Rectangle 2040" transform="translate(-21.296 21)" fill="#888684" stroke="#888684" stroke-width="1">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="3" fill="none"/>
+    </g>
+    <line id="Line_44" data-name="Line 44" x2="17" transform="translate(-27.796 10.951)" fill="none" stroke="#888684" stroke-width="1"/>
+    <line id="Line_45" data-name="Line 45" y1="4" transform="translate(-27.296 10.5)" fill="none" stroke="#888684" stroke-width="1"/>
+  </g>
+</svg>

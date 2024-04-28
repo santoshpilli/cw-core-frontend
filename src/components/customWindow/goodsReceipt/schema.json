@@ -1,0 +1,198 @@
+{
+  "title": "Goods Receipt",
+  "type": "object",
+  "layout": "header",
+  "Fields": [
+    {
+      "type": "selector",
+      "title": "Business Unit",
+      "name": "businessunit",
+      "default": "",
+      "required": true,
+      "seqno": 1,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N",
+      "lineData":null,
+      "apiBuiler": {
+          "id":"6481662d972763299598e709",
+          "params":{"cs_bunit_id":"","name":""}
+      }
+    },
+    {
+      "type": "selector",
+      "title": "Supplier",
+      "name": "supplier",
+      "default": "",
+      "required": true,
+      "seqno": 1,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N",
+      "lineData":null,
+      "apiBuiler": {
+          "id":"6494408f4ce06c1d3c60a75b",
+          "params":{"name":"","p_supplier_id":""}
+      }
+    },
+    {
+      "type": "selector",
+      "title": "Purchase Order",
+      "name": "po",
+      "default": "",
+      "required": true,
+      "seqno": 3,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N",
+      "lineData":null,
+      "apiBuiler": {
+          "id":"64942cb74ce06c1d3c60a71b",
+          "params":{"cs_bunit_id":"businessunit","p_supplier_id":"supplier","windowkey":"#GRN","PONumber":"null"}
+      }
+    },
+    {
+      "type": "string",
+      "title": "Supplier Invoice no",
+      "name": "supplierInvoiceno",
+      "default": "",
+      "required":false,
+      "seqno": 4,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    },
+    {
+      "type": "string",
+      "title": "Remarks",
+      "name": "remarks",
+      "default": "",
+      "required":false,
+      "seqno": 4,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    },
+    {
+      "type": "date",
+      "title": "Date",
+      "name": "date",
+      "default": "",
+      "required":false,
+      "seqno": 4,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    },
+      {
+        "type": "button",
+        "title": "Fetch",
+        "name": "fetch",
+        "default": "",
+        "required":false,
+        "seqno": 4,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N",
+        "lineData":{
+          "apiBuiler": {
+            "id":"6494316a4ce06c1d3c60a723",
+            "params":{"p_order_id":"po"}
+        }
+        }
+      }
+  ],
+  "lineFields":[
+    {
+      "type": "selector",
+      "title": "Product",
+      "name": "product",
+      "default": "",
+      "required": true,
+      "seqno": 1,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N",
+      "apiBuiler": {
+          "id":"64895b56972763299598e7bc",
+          "params":{"name":"","value":"","cs_bunit_id":"businessunit"}
+      }
+    },
+    {
+      "type": "string",
+      "title": "Category",
+      "name": "category",
+      "default": "",
+      "required":false,
+      "seqno": 2,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    },
+    {
+      "type": "string",
+      "title": "Orderdered Qty",
+      "name": "stock",
+      "default": "",
+      "required":false,
+      "seqno": 2,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    },
+    {
+      "type": "number",
+      "title": "Receiving Quantity",
+      "name": "qty",
+      "default": "",
+      "required":false,
+      "seqno": 4,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    },
+    {
+      "type": "icon",
+      "title": "Action",
+      "name": "delete",
+      "default": "",
+      "required":false,
+      "seqno": 5,
+      "dependent": null,
+      "isdisplayed": "Y",
+      "isreadonly": "N"
+    }
+  ],
+  "LinesButtons":[
+    {
+      "type": "Button",
+      "title": "",
+      "name": "Receive",
+      "seqno": 5,
+      "isdisplayed": "Y"
+    },
+    {
+      "type": "Button",
+      "title": "",
+      "name": "Email",
+      "seqno": 5,
+      "isdisplayed": "Y",
+      "emailConfig":{
+        "headerTabId":"0953FB1201D94CA39671ADF5D4CB967B",
+        "windowId":"7022"
+      }
+    },
+    {
+      "type": "Button",
+      "title": "",
+      "name": "import",
+      "seqno": 5,
+      "isdisplayed": "Y",
+      "importConfig":{
+        "columns":["productCode","qty"],
+        "fileName":"goodsReceiptImportTemplate",
+        "params":{"cs_bunit_id":"businessunit"}
+      }
+    }
+  ]
+}

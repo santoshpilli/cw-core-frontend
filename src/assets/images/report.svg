@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="24.618" viewBox="0 0 22 24.618">
+  <g id="Reports" transform="translate(0.857 5.475)">
+    <path id="Path_2635" data-name="Path 2635" d="M0,0H22V23H0Z" transform="translate(-0.857 -3.857)" fill="none"/>
+    <g id="Rectangle_2108" data-name="Rectangle 2108" transform="translate(1.144 11.143)" fill="none" stroke="#fff" stroke-width="1.5">
+      <rect width="5" height="7" stroke="none"/>
+      <rect x="0.75" y="0.75" width="3.5" height="5.5" fill="none"/>
+    </g>
+    <g id="Rectangle_2109" data-name="Rectangle 2109" transform="translate(8.144 8.143)" fill="none" stroke="#fff" stroke-width="1.5">
+      <rect width="5" height="10" stroke="none"/>
+      <rect x="0.75" y="0.75" width="3.5" height="8.5" fill="none"/>
+    </g>
+    <g id="Rectangle_2111" data-name="Rectangle 2111" transform="translate(15.144 -0.857)" fill="none" stroke="#fff" stroke-width="1.5">
+      <rect width="5" height="19" stroke="none"/>
+      <rect x="0.75" y="0.75" width="3.5" height="17.5" fill="none"/>
+    </g>
+    <g id="Arrow" transform="translate(-0.127 -3.935)">
+      <path id="Path_2637" data-name="Path 2637" d="M1,9.662S4.4,9.535,8.771,5.52a24.907,24.907,0,0,0,2.817-3.136C12,1.853,12.58,1.04,13.156.143" transform="translate(-1 1.921)" fill="none" stroke="#fff" stroke-width="1.5"/>
+      <path id="Path_2638" data-name="Path 2638" d="M13.572-1.708l3.1-1.72L15.636.127l-.917-1.491Z" transform="translate(-2.676 3.428)" fill="none" stroke="#fff" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

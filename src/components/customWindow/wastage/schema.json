@@ -1,0 +1,149 @@
+{
+    "title": "Wastage",
+    "type": "object",
+    "layout": "header",
+    "Fields": [
+      {
+        "type": "selector",
+        "title": "Business Unit",
+        "name": "businessunit",
+        "default": "",
+        "required": true,
+        "seqno": 1,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N",
+        "lineData":null,
+        "apiBuiler": {
+            "id":"6481662d972763299598e709",
+            "params":{"cs_bunit_id":"","name":""}
+        }
+      },
+      {
+        "type": "List",
+        "title": "Wastage Type",
+        "name": "wastageType",
+        "default": "",
+        "required": true,
+        "seqno": 2,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N",
+        "lineData":null,
+        "ListOptions":[
+          {"key":1,"name":"Damage","value":"DM"},
+          {"key":2,"name":"Expired","value":"EX"},
+          {"key":3,"name":"Scrap","value":"SC"},
+          {"key":4,"name":"Handling lose","value":"HL"},
+          {"key":5,"name":"In House Activities","value":"IHA"},
+          {"key":6,"name":"Kitchen consuption","value":"KC"}
+        ]
+        
+      },
+      {
+        "type": "string",
+        "title": "Remarks",
+        "name": "remarks",
+        "default": "",
+        "required":false,
+        "seqno": 4,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N"
+      },
+      {
+        "type": "date",
+        "title": "Date",
+        "name": "date",
+        "default": "",
+        "required":false,
+        "seqno": 4,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N"
+      }
+    ],
+    "lineFields":[
+      {
+        "type": "selector",
+        "title": "Product",
+        "name": "product",
+        "default": "",
+        "required": true,
+        "seqno": 1,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N",
+        "apiBuiler": {
+            "id":"64895b56972763299598e7bc",
+            "params":{"name":"","value":"","cs_bunit_id":"businessunit"}
+        }
+      },
+      {
+        "type": "string",
+        "title": "Category",
+        "name": "category",
+        "default": "",
+        "required":false,
+        "seqno": 2,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N"
+      },
+      {
+        "type": "number",
+        "title": "Wastage Quantity",
+        "name": "qty",
+        "default": "",
+        "required":false,
+        "seqno": 4,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N"
+      },
+      {
+        "type": "icon",
+        "title": "Action",
+        "name": "delete",
+        "default": "",
+        "required":false,
+        "seqno": 5,
+        "dependent": null,
+        "isdisplayed": "Y",
+        "isreadonly": "N"
+      }
+    ],
+    "LinesButtons":[
+      {
+        "type": "Button",
+        "title": "",
+        "name": "Confirm",
+        "seqno": 5,
+        "isdisplayed": "Y"
+      },
+      {
+        "type": "Button",
+        "title": "",
+        "name": "Email",
+        "seqno": 5,
+        "isdisplayed": "Y",
+        "emailConfig":{
+          "headerTabId":"21E55DED98F646839B881D2B3917860D",
+          "windowId":"7063"
+        }
+      },
+      {
+        "type": "Button",
+        "title": "",
+        "name": "import",
+        "seqno": 5,
+        "isdisplayed": "Y",
+        "importConfig":{
+          "columns":["productCode","qty"],
+          "fileName":"wastageImportTemplate",
+          "params":{"cs_bunit_id":"businessunit"}
+        }
+      }
+    ]
+  }
+  

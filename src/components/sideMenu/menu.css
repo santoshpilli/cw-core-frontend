@@ -1,0 +1,84 @@
+.fullmenu-active {
+    flex: 0 0 0px !important;
+    max-width: 0px !important;
+    min-width: 0px !important;
+    width: 0px !important;
+}
+.menu-toggle {
+    position: fixed;
+    left:12.3rem;
+    top: 50%;
+    background: transparent;
+    transform: translate(-50%, -50%);
+    z-index: 10; /* bring the toggle button above the menu */
+  }
+  .toggle {
+    position: fixed;
+    left:0%;
+    top: 50%;
+    background: transparent;
+    transform: translate(-50%, -50%);
+    z-index: 10; /* bring the toggle button above the menu */
+  }
+  .menu-toggle2 {
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10; /* bring the toggle button above the menu */  }
+
+  .menu-toggle3 {
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10; /* bring the toggle button above the menu */
+  }
+/* .fullmenu-inactive {
+    flex: 0 0 80px !important;
+    max-width: 80px !important;
+    min-width: 80px !important;
+    width: 80px !important;
+} */
+
+.fullmenu-inactive {
+    flex: 0 0 60px !important;
+    max-width: 60px !important;
+    min-width: 60px !important;
+    width:60px !important;
+}
+
+.cardPadding{
+    padding-left: 0px !important;
+}
+/* .sideMenu.ant-menu-horizontal > .ant-menu-item-selected{
+background-color: #4B5770;
+} */
+.ant-menu-inline.ant-menu-item::after{
+    /* border-left: 3px solid #A4CD38 !important;; */
+}
+.sideMenu.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected
+ {
+    /* background-color: #4B5770; */
+    /* border-radius: 0px !important; */
+    /* border-bottom-right-radius:4px ; */
+    /* color: #FFFFFF; */
+    /* opacity: 1; */
+    /* border-left: 3px solid #A4CD38 !important; */
+    font-weight: 700 !important;
+    font-size: 1em !important;
+}
+.ant-menu-light.ant-menu-item:hover,.ant-menu-light.ant-menu-item-active{
+    color: #FFFFFF;
+}
+.ant-menu-light .ant-menu-item:hover, .ant-menu-light .ant-menu-item-active, .ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-light .ant-menu-submenu-active, .ant-menu-light .ant-menu-submenu-title:hover{
+	color:#4B5770 ;
+} 
+/* .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item:hover{
+    color: #000;
+} */
+
+.sideMenu.ant-menu:not(.ant-menu-horizontal) .ant-menu-title-content{
+    margin-left: 1em !important;
+}

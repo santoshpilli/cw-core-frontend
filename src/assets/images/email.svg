@@ -1,0 +1,15 @@
+<svg id="email_-_outline" data-name="email - outline" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Path_2816" data-name="Path 2816" class="cls-1" d="M0,0H22V22H0Z"/>
+  <path id="Path_2817" data-name="Path 2817" class="cls-2" d="M20.287,5.822A1.831,1.831,0,0,0,18.459,4H3.829A1.831,1.831,0,0,0,2,5.822V16.753a1.831,1.831,0,0,0,1.829,1.822h14.63a1.831,1.831,0,0,0,1.829-1.822Zm-1.829,0-7.315,4.555L3.829,5.822Zm0,10.931H3.829V7.644L11.144,12.2l7.315-4.555Z" transform="translate(-0.144 -0.287)"/>
+</svg>
